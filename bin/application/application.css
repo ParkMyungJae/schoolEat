@@ -1,0 +1,27 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.mainpane {
+	-fx-background-image: url("/img/img.jpg");
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+.menupane {
+	-fx-background-color: rgba(120, 120, 120, 0.7);
+	-fx-background-radius:  5px;
+}
+
+.btn {
+	 -fx-background-radius: 4px;
+	 -fx-background-color: #007bff;
+	 -fx-text-fill: #fff;
+	 -fx-border-color: #007bff;
+	 -fx-border-radius: 4px;
+	 -fx-padding: 8px 12px;
+	 -fx-cursor: hand;
+}
+
+.btn:hover {
+	-fx-background-color: #0069d9;
+	-fx-border-color: #0062cc;
+}
